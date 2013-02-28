@@ -11,6 +11,7 @@
 
 		<link rel="stylesheet" type="text/css" href="css/lib/animate.css" media="screen, projection">
 		<link rel="stylesheet" href="css/about.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/contact.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/lib/flexslider.css" type="text/css" media="screen" />
 
 		<!--[if lt IE 9]>
