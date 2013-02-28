@@ -82,7 +82,7 @@
 			</div>
 		</div>
 		
-		 <div class="row map">
+		 <div id="contact" class="row map">
             <div class="container">
                 <div class="span5 box_wrapp">
                     <div class="box_cont">
