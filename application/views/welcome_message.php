@@ -23,7 +23,7 @@
 			<div class="navbar-inner">
 				<div class="container">
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-					<a class="brand" href="index.html"> <strong>ROMFORD OFFICE</strong> </a>
+					<a class="brand" href="index.html"> <strong>ROMFORD OFFICE TO LET</strong> </a>
 					<div class="nav-collapse collapse">
 						<ul class="nav pull-right">
 							<li>
@@ -32,50 +32,15 @@
 							<li>
 								<a href="about-us.html" class="active">ABOUT US</a>
 							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown"> PAGES <b class="caret"></b> </a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="features.html">Features</a>
-									</li>
-									<li>
-										<a href="services.html">Services</a>
-									</li>
-									<li>
-										<a href="portfolio.html">Portfolio</a>
-									</li>
-									<li>
-										<a href="portfolio-item.html">Portfolio Item</a>
-									</li>
-									<li>
-										<a href="coming-soon.html">Coming Soon</a>
-									</li>
-									<li>
-										<a href="sign-in.html">Sign in</a>
-									</li>
-									<li>
-										<a href="sign-up.html">Sign up</a>
-									</li>
-									<li>
-										<a href="backgrounds.html">Backgrounds</a>
-									</li>
-								</ul>
-							</li>
+						
 							<li>
 								<a href="pricing.html">PRICING</a>
 							</li>
 							<li>
 								<a href="contact.html">CONTACT US</a>
 							</li>
-							<li>
-								<a href="blog.html">BLOG</a>
-							</li>
-							<li>
-								<a class="btn-header" href="sign-up.html">Sign up</a>
-							</li>
-							<li>
-								<a class="btn-header" href="sign-in.html">Sign in</a>
-							</li>
+							
+						
 						</ul>
 					</div>
 				</div>
@@ -91,220 +56,46 @@
 							</div>
 							<ul class="street">
 								<li>
-									2301 East Lamar Blvd. Suite 140.
+									Matthew Skidmore
 								</li>
 								<li>
-									City, Arlington. United States,
+									Enterprise House. 
 								</li>
 								<li>
-									Zip Code, TX 76006.
+									18 Eastern Road.
+								</li>
+								<li>
+									Romford, Essex
+								</li>
+								<li>
+									RM1 3PJ
 								</li>
 								<li class="icon icontop">
 									<span class="contacticos ico1"></span>
-									<span class="text">1 817 274 2933</span>
+									<span class="text">07973 129285</span>
 								</li>
 								<li class="icon">
-									<span class="contacticos ico2"></span>
-									<a class="text" href="#">bootstrap@twitter.com</a>
-								</li>
+                                <span class="contacticos ico2"></span>
+                                <a class="text" target="_blank" href="mailto:matthew.skidmore@ker.co.uk">matthew.skidmore@ker.co.uk</a>
+                            </li>
+								
 							</ul>
 
-							<div class="head headbottom">
-								<h6>Work with us</h6>
-							</div>
-							<p>
-								We’ve prepared a simple project planner to get to know you and your project better.
-							</p>
-
-							<a href="#" class="btn">Let's get started</a>
+							
 						</div>
 					</div>
 				</div>
-				<iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.mx/?ie=UTF8&amp;ll=64.089157,-21.816616&amp;spn=0.045157,0.15398&amp;t=m&amp;z=13&amp;output=embed"></iframe>
+				<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+				src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Kenneth+Elliott+%26+Rowe,+Eastern+Road,+Romford&amp;aq=0&amp;oq=kenneth+ell&amp;sll=52.8382,-2.327815&amp;sspn=9.430646,19.511719&amp;t=m&amp;ie=UTF8&amp;hq=Kenneth+Elliott+%26+Rowe,+Eastern+Road,&amp;hnear=Romford,+Greater+London,+United+Kingdom&amp;z=16&amp;iwloc=B&amp;output=embed"></iframe>
 			</div>
 		</div>
 		
 
-		<div id="aboutus">
-			<div class="container">
-				<div class="section_header">
-					<h3>Office to Let in Romford</h3>
-				</div>
-				<div class="row">
-					<div class="span6 intro">
-						<h6>Modern open plan office suite extending to 1,605 sq.ft. with parking.</h6>
-						<p>
-							Enterprise House,
-							<br/>
-							18 Eastern Road,
-							<br/>
-							Romford,
-							<br/>
-							Essex,
-							<br/>
-							RM1 3PJ
-						</p>
+		<?=$this->load->view($content)?>
 
-						<p>
-							To arrange a viewing get in contact. Either use our contact form, or call Matthew Skidmore on 07973 129285
-						</p>
+		
 
-					</div>
-					<div class="span6 flexslider">
-						<ul class="slides">
-							<li>
-								<img src="img/slides/officeslide-1.jpg" />
-							</li>
-							<li>
-								<img src="img/slides/officeslide-2.jpg" />
-							</li>
-							<li>
-								<img src="img/slides/officeslide-3.jpg" />
-							</li>
-							<li>
-								<img src="img/slides/officeslide-4.jpg" />
-							</li>
-							<li>
-								<img src="img/slides/officeslide-5.jpg" />
-							</li>
-							<li>
-								<img src="img/slides/officeslide-6.jpg" />
-							</li>
-							<li>
-								<img src="img/slides/officeslide-7.jpg" />
-							</li>
-							<li>
-								<img src="img/slides/officeslide-8.jpg" />
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="team">
-			<div class="container">
-				<div class="section_header">
-					<h3>Meet our Team</h3>
-				</div>
-
-				<div class="row people">
-					<div class="row row1">
-						<div class="span6 bio_box">
-							<img src="img/ale.png" alt="">
-							<div class="info">
-								<p class="name">
-									Alejandra Galvan Castillo
-								</p>
-								<p class="area">
-									Creative Director
-								</p>
-								<a href="#" class="facebook"> <span class="socialicons ico1"></span> <span class="socialicons_h ico1h"></span> </a>
-								<a href="#" class="twitter"> <span class="socialicons ico2"></span> <span class="socialicons_h ico2h"></span> </a>
-								<a href="#" class="flickr"> <span class="socialicons ico4"></span> <span class="socialicons_h ico4h"></span> </a>
-								<a href="#" class="dribble"> <span class="socialicons ico6"></span> <span class="socialicons_h ico6h"></span> </a>
-							</div>
-						</div>
-
-						<div class="span6 bio_box bio_boxr">
-							<img src="img/ale.png" alt="">
-							<div class="info">
-								<p class="name">
-									Alejandra Galvan Castillo
-								</p>
-								<p class="area">
-									Creative Director
-								</p>
-								<a href="#" class="facebook"> <span class="socialicons ico1"></span> <span class="socialicons_h ico1h"></span> </a>
-								<a href="#" class="twitter"> <span class="socialicons ico2"></span> <span class="socialicons_h ico2h"></span> </a>
-								<a href="#" class="flickr"> <span class="socialicons ico4"></span> <span class="socialicons_h ico4h"></span> </a>
-								<a href="#" class="dribble"> <span class="socialicons ico6"></span> <span class="socialicons_h ico6h"></span> </a>
-							</div>
-						</div>
-					</div>
-
-					<div class="row row1">
-						<div class="span6 bio_box">
-							<img src="img/ale.png" alt="">
-							<div class="info">
-								<p class="name">
-									Alejandra Galvan Castillo
-								</p>
-								<p class="area">
-									Creative Director
-								</p>
-								<a href="#" class="facebook"> <span class="socialicons ico1"></span> <span class="socialicons_h ico1h"></span> </a>
-								<a href="#" class="twitter"> <span class="socialicons ico2"></span> <span class="socialicons_h ico2h"></span> </a>
-								<a href="#" class="flickr"> <span class="socialicons ico4"></span> <span class="socialicons_h ico4h"></span> </a>
-								<a href="#" class="dribble"> <span class="socialicons ico6"></span> <span class="socialicons_h ico6h"></span> </a>
-							</div>
-						</div>
-
-						<div class="span6 bio_box bio_boxr">
-							<img src="img/ale.png" alt="">
-							<div class="info">
-								<p class="name">
-									Alejandra Galvan Castillo
-								</p>
-								<p class="area">
-									Creative Director
-								</p>
-								<a href="#" class="facebook"> <span class="socialicons ico1"></span> <span class="socialicons_h ico1h"></span> </a>
-								<a href="#" class="twitter"> <span class="socialicons ico2"></span> <span class="socialicons_h ico2h"></span> </a>
-								<a href="#" class="flickr"> <span class="socialicons ico4"></span> <span class="socialicons_h ico4h"></span> </a>
-								<a href="#" class="dribble"> <span class="socialicons ico6"></span> <span class="socialicons_h ico6h"></span> </a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="process">
-			<div class="container">
-				<div class="section_header">
-					<h3>Our Process</h3>
-				</div>
-				<div class="row services_circles">
-					<div class="span4 description">
-						<div class="text active">
-							<h4>Plan what you need.</h4>
-							<p>
-								There are many variations of passages of  this suffered alteration in some form, by injected look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to making this the first true generator  Internet.
-							</p>
-						</div>
-						<div class="text">
-							<h4>Develop your product or service.</h4>
-							<p>
-								There are many variations of passages of  this suffered alteration in some form, by injected look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
-								making this the first true generator  Internet.
-							</p>
-						</div>
-						<div class="text">
-							<h4>Design this theme to your needs.</h4>
-							<p>
-								There are many variations of passages of  this suffered alteration in some form, by injected look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to making this the first true generator  Internet.
-							</p>
-						</div>
-					</div>
-
-					<div class="span7 areas">
-						<div class="circle active">
-							<img src="img/plan.png" />
-							<span>Plan</span>
-						</div>
-						<div class="circle">
-							<img src="img/develop.png" />
-							<span>Develop</span>
-						</div>
-						<div class="circle last_circle">
-							<img src="img/design.png" />
-							<span>Design</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 
 		<!-- starts footer -->
 		<footer id="footer">
@@ -313,20 +104,24 @@
 					<div class="span6 residence">
 						<ul>
 							<li>
-								2301 East Lamar Blvd. Suite 140. City, Arlington.
+								Enterprise House, 
+18 Eastern Road, 
+Romford, 
+
 							</li>
 							<li>
-								United States, Zip Code TX 76006.
+								Essex, 
+RM1 3PJ
 							</li>
 						</ul>
 					</div>
 					<div class="span5 touch">
 						<ul>
 							<li>
-								<strong>P.</strong> 1 817 274 2933
+								<strong>P.</strong> 07973 129285
 							</li>
 							<li>
-								<strong>E.</strong><a href="#"> bootstrap@twitter.com</a>
+								<strong>E.</strong><a href="mailto:matthew.skidmore@ker.co.uk">matthew.skidmore@ker.co.uk</a>
 							</li>
 						</ul>
 					</div>
@@ -338,15 +133,12 @@
 								<a href="#" class="facebook"> <span class="socialicons ico1"></span> <span class="socialicons_h ico1h"></span> </a>
 								<a href="#" class="twitter"> <span class="socialicons ico2"></span> <span class="socialicons_h ico2h"></span> </a>
 								<a href="#" class="gplus"> <span class="socialicons ico3"></span> <span class="socialicons_h ico3h"></span> </a>
-								<a href="#" class="flickr"> <span class="socialicons ico4"></span> <span class="socialicons_h ico4h"></span> </a>
-								<a href="#" class="pinterest"> <span class="socialicons ico5"></span> <span class="socialicons_h ico5h"></span> </a>
-								<a href="#" class="dribble"> <span class="socialicons ico6"></span> <span class="socialicons_h ico6h"></span> </a>
-								<a href="#" class="behance"> <span class="socialicons ico7"></span> <span class="socialicons_h ico7h"></span> </a>
+								
 							</div>
 						</div>
 						<div class="row copyright">
 							<div class="span12">
-								© 2013 Clean Canvas. All rights reserved. Theme by Detail Canvas.
+								© 2013 Romford Letting. Website developed by <a href="http://www.redstudio.co.uk">redstudio</a>
 							</div>
 						</div>
 					</div>

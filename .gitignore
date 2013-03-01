@@ -1,0 +1,8 @@
+application/config/database.php
+application/config/config.php
+images/captcha/*
+images/captcha
+nbproject/*
+stats/*
+.htaccess
+*.*~
