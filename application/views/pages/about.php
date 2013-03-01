@@ -1,11 +1,11 @@
 <div id="aboutus">
 	<div class="container">
 		<div class="section_header">
-			<h3>Location</h3>
+			<h3>Location &amp; Accomodation</h3>
 		</div>
 		<div class="row">
 			<div class="span6 intro">
-
+<h3>Location</h3>
 				<p>
 					Enterprise House is situated in the central office district of Romford within easy
 					walking distance of Romford mainline station which provides frequent services to London’s

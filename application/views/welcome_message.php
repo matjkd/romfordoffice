@@ -5,14 +5,14 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Styles -->
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/theme.css">
+		<link href="<?=base_url()?>css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/theme.css">
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
-		<link rel="stylesheet" type="text/css" href="css/lib/animate.css" media="screen, projection">
-		<link rel="stylesheet" href="css/about.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="css/contact.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="css/lib/flexslider.css" type="text/css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="<?=base_url()?>css/lib/animate.css" media="screen, projection">
+		<link rel="stylesheet" href="<?=base_url()?>css/about.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="<?=base_url()?>css/contact.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="<?=base_url()?>css/lib/flexslider.css" type="text/css" media="screen" />
 
 		<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,22 +23,20 @@
 			<div class="navbar-inner">
 				<div class="container">
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-					<a class="brand" href="index.html"> <strong>ROMFORD OFFICE TO LET</strong> </a>
+					<a class="brand" href="<?=base_url()?>"> <strong>ROMFORD OFFICE TO LET</strong> </a>
 					<div class="nav-collapse collapse">
 						<ul class="nav pull-right">
 							<li>
-								<a href="index.html">HOME</a>
+								<a href="<?=base_url()?>">HOME</a>
 							</li>
 							<li>
-								<a href="about-us.html" class="active">ABOUT US</a>
+								<a href="<?=base_url()?>welcome/page/about">ABOUT US</a>
 							</li>
 						
 							<li>
-								<a href="pricing.html">PRICING</a>
+								<a href="<?=base_url()?>welcome/page/pricing">PRICING</a>
 							</li>
-							<li>
-								<a href="contact.html">CONTACT US</a>
-							</li>
+							
 							
 						
 						</ul>
@@ -128,14 +126,7 @@ RM1 3PJ
 				</div>
 				<div class="row credits">
 					<div class="span12">
-						<div class="row social">
-							<div class="span12">
-								<a href="#" class="facebook"> <span class="socialicons ico1"></span> <span class="socialicons_h ico1h"></span> </a>
-								<a href="#" class="twitter"> <span class="socialicons ico2"></span> <span class="socialicons_h ico2h"></span> </a>
-								<a href="#" class="gplus"> <span class="socialicons ico3"></span> <span class="socialicons_h ico3h"></span> </a>
-								
-							</div>
-						</div>
+						
 						<div class="row copyright">
 							<div class="span12">
 								© 2013 Romford Letting. Website developed by <a href="http://www.redstudio.co.uk">redstudio</a>
@@ -147,8 +138,8 @@ RM1 3PJ
 		</footer>
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/theme.js"></script>
-		<script type="text/javascript" src="js/flexslider.js"></script>
+		<script src="<?=base_url()?>js/bootstrap.min.js"></script>
+		<script src="<?=base_url()?>js/theme.js"></script>
+		<script type="text/javascript" src="<?=base_url()?>js/flexslider.js"></script>
 	</body>
 </html>

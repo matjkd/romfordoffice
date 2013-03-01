@@ -19,17 +19,22 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+			redirect('welcome/page');
+	}
+	
+	public function page($page = NULL) {
+		
+		if($page == NULL) {	
 			$data['content'] = "pages/frontpage";
+			}
+			else {
+				$data['content'] = "pages/".$page;
+			}
 			$this->load->vars($data);
 			$this->load->view('welcome_message');
 	}
 	
-	public function about()
-	{
-		$data['content'] = "pages/about";
-			$this->load->vars($data);
-			$this->load->view('welcome_message');
-	}
+	
 }
 
 /* End of file welcome.php */
