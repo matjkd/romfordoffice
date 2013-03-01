@@ -19,7 +19,7 @@
 				</p>
 
 				<p>
-					To arrange a viewing get in contact call Matthew Skidmore on 07973 129285
+					To arrange a viewing get in contact: Call Matthew Skidmore on 07973 129285
 				</p>
 
 			</div>

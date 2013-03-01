@@ -5,7 +5,7 @@
 		</div>
 		<div class="row">
 			<div class="span6 intro">
-<h3>Location</h3>
+<h6>Location</h6>
 				<p>
 					Enterprise House is situated in the central office district of Romford within easy
 					walking distance of Romford mainline station which provides frequent services to London’s
@@ -21,7 +21,7 @@
 					To arrange a viewing get in contact. Either use our contact form, or call Matthew Skidmore on 07973 129285
 				</p>
 
-				<h3>Accomodation</h3>
+				<h6>Accomodation</h6>
 				<p>
 
 					Enterprise House comprises a four storey office building occupied by established solicitors,
